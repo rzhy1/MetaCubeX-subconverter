@@ -96,12 +96,6 @@ jobs:
     if: ${{ github.ref_type=='branch' }}
     needs:
       [
-        linux64_build,
-        linux32_build,
-        armv7_build,
-        armhf_build,
-        aarch64_build,
-        macos_build,
         windows64_build,
         windows32_build,
       ]
